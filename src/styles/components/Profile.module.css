@@ -1,0 +1,29 @@
+.profileComponents {
+  display: flex;
+  align-items: center;
+}
+
+.profileComponents > img {
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50%;
+}
+
+.profileComponents div {
+  margin-left: 1.5rem;
+}
+
+.profileComponents div strong {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--title);
+}
+
+.profileComponents div p {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.profileComponents div p img {
+  margin-right: 0.5rem;
+}
